@@ -2,6 +2,7 @@ import React from 'react';
 import MyComponent from './components/myComponent';
 import { OtherComponent } from './components/otherComponent';
 import { OtroMasComponent } from './components/otroMasComponent';
+import { UnoQueNadaQueVer } from './components/unoQueNadaQueVer';
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 			<MyComponent></MyComponent>
 			<OtherComponent></OtherComponent>
 			<OtroMasComponent></OtroMasComponent>
+			<UnoQueNadaQueVer></UnoQueNadaQueVer>
 		</div>
 	);
 }
