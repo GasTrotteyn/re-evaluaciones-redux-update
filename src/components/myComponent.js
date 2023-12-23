@@ -8,7 +8,7 @@ function MyComponent() {
 	console.log('evaluando el que maneja y tiene renderizado el valor');
 
 	return (
-		<div style={{ border: 'violet 2px solid', margin: '20px' }}>
+		<div style={{ border: 'violet 2px solid', margin: '20px', padding: '20px' }}>
 			<p>Counter: {counter}</p>
 			<button onClick={() => dispatch(increment())}>Increment</button>
 			<button onClick={() => dispatch(decrement())}>Decrement</button>
